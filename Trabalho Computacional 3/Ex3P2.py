@@ -15,6 +15,7 @@ print(f"Erro Quadrático Total (E) = {erroE2:.4f}\n")
 
 # Grau = 3
 A3, b3, a3, erroE3 = minimos_quadrados_polinomial(x, y, 3)
+a3_3 = round(a3[3], 10) + 0.0
 print("Grau = 3")
 print("Matriz dos Somatórios (A):\n", A3)
 print("Vetor independente (b):\n", b3)
